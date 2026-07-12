@@ -1,0 +1,51 @@
+# IAM Platform — 07 — Por que usar Records para Value Objects?
+
+## Status
+
+* [x] Ideia registrada
+* [x] Conteúdo estudado
+* [x] Roteiro definido
+* [x] Imagem criada
+* [x] Descrição criada
+* [x] Revisado
+* [ ] Agendado
+* [x] Publicado
+
+## Informações
+
+* Série: IAM Platform
+* Número: 07
+* Tema: Por que usar Records para Value Objects?
+* Data de criação:
+* Data de publicação:
+* Link da publicação:
+* Branch ou feature relacionada:
+* Tecnologias relacionadas:
+
+## Objetivo do post
+
+Descrever qual conhecimento o post pretende transmitir.
+
+## Mensagem principal
+
+Registrar a principal mensagem que o leitor deve compreender.
+
+## Pontos que devem aparecer na imagem
+
+*
+*
+*
+
+## Rascunho da descrição
+
+Adicionar posteriormente.
+
+## Referências de estudo
+
+*
+*
+
+## Observações
+
+Adicionar decisões, melhorias e ideias para conteúdos relacionados.
+
