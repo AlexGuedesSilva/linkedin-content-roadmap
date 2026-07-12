@@ -36,7 +36,7 @@ A movimentação do arquivo deve acompanhar o estado real do conteúdo. Ao mudar
 
 | Série | Publicados | Em produção | Backlog | Total | Detalhes |
 |---|---:|---:|---:|---:|---|
-| IAM Platform | 17 | 0 | 14 | 31 | [Ver série](iam-platform/README.md) |
+| IAM Platform | 18 | 0 | 13 | 31 | [Ver série](iam-platform/README.md) |
 | Spring | 3 | 0 | 17 | 20 | [Ver série](spring/README.md) |
 | Testing | 9 | 0 | 11 | 20 | [Ver série](testing/README.md) |
 | Security | 1 | 0 | 27 | 28 | [Ver série](security/README.md) |
