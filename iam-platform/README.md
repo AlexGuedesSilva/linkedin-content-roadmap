@@ -34,7 +34,7 @@ Java, Spring Boot, DDD, Clean Architecture, arquitetura modular, persistência, 
 | 16 | UserIdGenerator como abstração | Publicado | [Arquivo](published/16-useridgenerator-como-abstracao.md) |
 | 17 | Primeira versão funcional da IAM Platform | Publicado | [Arquivo](published/17-primeira-versao-funcional-da-iam-platform.md) |
 | 18 | Flyway e versionamento do banco de dados | Publicado | [Arquivo](published/18-flyway-e-versionamento-do-banco-de-dados.md) |
-| 19 | LoginUserUseCase | Backlog | [Arquivo](backlog/19-loginuserusecase.md) |
+| 19 | JWT (RS256) + JWKS | Publicado | [Arquivo](published/19-jwt-rs256-jwks.md) |
 | 20 | Emissão de JWT | Backlog | [Arquivo](backlog/20-emissao-de-jwt.md) |
 | 21 | JWT com RS256 | Backlog | [Arquivo](backlog/21-jwt-com-rs256.md) |
 | 22 | Endpoint JWKS | Backlog | [Arquivo](backlog/22-endpoint-jwks.md) |

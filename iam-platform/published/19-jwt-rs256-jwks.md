@@ -7,9 +7,9 @@
 * [x] Roteiro definido
 * [x] Imagem criada
 * [x] Descrição criada
-* [ ] Revisado
+* [x] Revisado
 * [ ] Agendado
-* [ ] Publicado
+* [x] Publicado
 
 ## Informações
 
@@ -17,8 +17,8 @@
 * Número: 19
 * Tema: Emissão de Access Token com JWT (RS256) + JWKS
 * Data de criação: 14/07/2026
-* Data de publicação:
-* Link da publicação:
+* Data de publicação: 14/07/2026
+* Link da publicação:https://www.linkedin.com/feed/update/urn:li:activity:7482928529064497152/
   
 * Branch ou feature relacionada: 
   feature/token-jwt
