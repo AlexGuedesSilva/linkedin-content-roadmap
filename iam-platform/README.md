@@ -1,57 +1,62 @@
-# Série IAM Platform
+# IAM Platform
 
-## Descrição
+Esta área acompanha a construção progressiva de uma plataforma de Identity and Access Management (IAM). Ela funciona ao mesmo tempo como roadmap editorial da série, documentação da implementação, histórico cronológico do projeto e material didático para estudo e entrevistas técnicas.
 
-Acompanha a construção prática de uma plataforma de Identity and Access Management, conectando decisões de domínio, arquitetura, persistência, segurança e evolução operacional.
+## Objetivo da série
 
-## Objetivo
+A série registra decisões, conceitos e incrementos da IAM Platform em ordem numérica. Cada post relaciona um assunto técnico à evolução da plataforma, sem tratar a existência de um roteiro como evidência de que a respectiva feature já foi implementada.
 
-Documentar, em sequência, as decisões técnicas e os aprendizados necessários para construir uma IAM Platform modular, segura e testável.
+## Tecnologias e temas principais
 
-## Tecnologias e assuntos
+Java 21, Spring Boot, Spring Security, PostgreSQL, Flyway, JWT, JWS, RS256, JWKS, DDD, Clean Architecture, arquitetura hexagonal, monólito modular, persistência, autenticação, autorização e segurança de sessões.
 
-Java, Spring Boot, DDD, Clean Architecture, arquitetura modular, persistência, autenticação, autorização, tokens, auditoria e testes automatizados.
+## Como navegar
 
-## Conteúdos
+- [Sumário técnico](SUMMARY.md): leitura em formato de livro, organizada por capítulo e número.
+- [Roadmap](roadmap.md): visão editorial e técnica, incluindo branches ou features quando documentadas.
+- [Glossário](glossary.md): definições curtas dos principais conceitos da série.
+- Por status: `backlog`, `in-progress` e `published` indicam o estado editorial.
+- Por capítulo: dentro de cada status, as pastas numeradas agrupam conteúdos do mesmo tema.
 
-| Nº | Tema | Status | Localização |
-|---:|---|---|---|
-| 01 | Por que construir uma IAM Platform? | Publicado | [Arquivo](published/01-por-que-construir-uma-iam-platform.md) |
-| 02 | Por que IAM? | Publicado | [Arquivo](published/02-por-que-iam.md) |
-| 03 | Escolhendo a arquitetura: Modular Monolith, Clean Architecture e DDD | Publicado | [Arquivo](published/03-escolhendo-a-arquitetura-modular-monolith-clean-architecture-e-ddd.md) |
-| 04 | Estrutura dos módulos | Publicado | [Arquivo](published/04-estrutura-dos-modulos.md) |
-| 05 | Modelando o domínio | Publicado | [Arquivo](published/05-modelando-o-dominio.md) |
-| 06 | Entity vs Value Object | Publicado | [Arquivo](published/06-entity-vs-value-object.md) |
-| 07 | Por que usar Records para Value Objects? | Publicado | [Arquivo](published/07-por-que-usar-records-para-value-objects.md) |
-| 08 | Rich Domain Model | Publicado | [Arquivo](published/08-rich-domain-model.md) |
-| 09 | Repository Pattern | Publicado | [Arquivo](published/09-repository-pattern.md) |
-| 10 | Persistence Adapter | Publicado | [Arquivo](published/10-persistence-adapter.md) |
-| 11 | Domain Entity vs JPA Entity | Publicado | [Arquivo](published/11-domain-entity-vs-jpa-entity.md) |
-| 12 | Mapper entre domínio e persistência | Publicado | [Arquivo](published/12-mapper-entre-dominio-e-persistencia.md) |
-| 13 | Por que o domínio não possui `@Entity`? | Publicado | [Arquivo](published/13-por-que-o-dominio-nao-possui-entity.md) |
-| 14 | RegisterUserUseCase | Publicado | [Arquivo](published/14-registeruserusecase.md) |
-| 15 | PasswordHasher como porta | Publicado | [Arquivo](published/15-passwordhasher-como-porta.md) |
-| 16 | UserIdGenerator como abstração | Publicado | [Arquivo](published/16-useridgenerator-como-abstracao.md) |
-| 17 | Primeira versão funcional da IAM Platform | Publicado | [Arquivo](published/17-primeira-versao-funcional-da-iam-platform.md) |
-| 18 | Flyway e versionamento do banco de dados | Publicado | [Arquivo](published/18-flyway-e-versionamento-do-banco-de-dados.md) |
-| 19 | JWT (RS256) + JWKS | Publicado | [Arquivo](published/19-jwt-rs256-jwks.md) |
-| 20 | Emissão de JWT | Backlog | [Arquivo](backlog/20-emissao-de-jwt.md) |
-| 21 | JWT com RS256 | Backlog | [Arquivo](backlog/21-jwt-com-rs256.md) |
-| 22 | Endpoint JWKS | Backlog | [Arquivo](backlog/22-endpoint-jwks.md) |
-| 23 | Refresh Token | Backlog | [Arquivo](backlog/23-refresh-token.md) |
-| 24 | Rotação de Refresh Token | Backlog | [Arquivo](backlog/24-rotacao-de-refresh-token.md) |
-| 25 | Logout e revogação | Backlog | [Arquivo](backlog/25-logout-e-revogacao.md) |
-| 26 | Sessões de usuário | Backlog | [Arquivo](backlog/26-sessoes-de-usuario.md) |
-| 27 | RBAC | Backlog | [Arquivo](backlog/27-rbac.md) |
-| 28 | ABAC | Backlog | [Arquivo](backlog/28-abac.md) |
-| 29 | Auditoria de eventos | Backlog | [Arquivo](backlog/29-auditoria-de-eventos.md) |
-| 30 | API Keys | Backlog | [Arquivo](backlog/30-api-keys.md) |
-| 31 | Transformando o monólito modular em microsserviços | Backlog | [Arquivo](backlog/31-transformando-o-monolito-modular-em-microsservicos.md) |
+Os capítulos atuais são:
 
-## Próximos conteúdos sugeridos
+1. `01-foundation`
+2. `02-identity`
+3. `03-persistence`
+4. `04-authentication`
+5. `05-token-and-session`
+6. `06-authorization`
+7. `07-api-keys`
+8. `08-audit`
+9. `09-architecture-evolution`
 
-* 19 — LoginUserUseCase
-* 20 — Emissão de JWT
-* 21 — JWT com RS256
-* 22 — Endpoint JWKS
+Pastas de capítulo só existem em um status quando há conteúdo correspondente, evitando diretórios vazios sem perder a convenção de nomes.
 
+## Posts, branches e features
+
+O campo **Branch ou feature relacionada** de cada post conecta o conteúdo editorial à implementação quando essa informação está disponível. Uma branch citada documenta uma relação com o código; um post no backlog continua sendo apenas conteúdo planejado e não confirma que a feature esteja pronta. O [roadmap](roadmap.md) explicita essa diferença.
+
+## Fluxo editorial
+
+```text
+backlog
+   ↓
+in-progress
+   ↓
+published
+```
+
+Mover um arquivo, mantendo o mesmo capítulo, representa a evolução editorial do conteúdo. O checklist e os metadados do próprio post devem ser atualizados apenas quando cada etapa realmente ocorrer.
+
+## Situação atual
+
+| Status | Quantidade | Significado |
+|---|---:|---|
+| Publicado | 21 | Conteúdo com publicação registrada no arquivo |
+| Em andamento | 0 | Conteúdo em produção |
+| Backlog | 10 | Conteúdo planejado, sem pressupor implementação |
+| **Total** | **31** | Posts existentes |
+
+## Próximos passos
+
+Para iniciar um conteúdo, mova-o de `backlog/<capitulo>/` para `in-progress/<capitulo>/`. Depois da publicação, mova-o para `published/<capitulo>/`, preencha data e link reais e atualize o [sumário](SUMMARY.md), o [roadmap](roadmap.md) e as contagens relevantes. Consulte também o [guia de contribuição](../CONTRIBUTING.md).

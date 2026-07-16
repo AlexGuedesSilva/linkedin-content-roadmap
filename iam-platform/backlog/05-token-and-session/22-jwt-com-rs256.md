@@ -1,4 +1,4 @@
-# IAM Platform — 21 — JWT com RS256
+# IAM Platform — 22 — JWT com RS256
 
 ## Status
 
@@ -14,7 +14,7 @@
 ## Informações
 
 * Série: IAM Platform
-* Número: 21
+* Número: 22
 * Tema: JWT com RS256
 * Data de criação:
 * Data de publicação:

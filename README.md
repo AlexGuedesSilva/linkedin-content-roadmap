@@ -8,7 +8,7 @@ Centralizar ideias, estudos, roteiros e registros de publicação em Markdown. O
 
 ## Séries
 
-* **[IAM Platform](iam-platform/README.md):** construção prática de uma plataforma de identidade e acesso com Java, Spring Boot, DDD e Clean Architecture.
+* **[IAM Platform](iam-platform/README.md):** construção prática de uma plataforma de identidade e acesso com Java, Spring Boot, DDD e Clean Architecture. A coleção também funciona como documentação progressiva, livro técnico e histórico da implementação.
 * **[Spring](spring/README.md):** funcionamento interno e recursos essenciais do ecossistema Spring.
 * **[Testing](testing/README.md):** estratégia e práticas de testes automatizados.
 * **[Security](security/README.md):** fundamentos e controles para aplicações e APIs seguras.
@@ -32,16 +32,25 @@ Use `NN-titulo-em-kebab-case.md`, com número de dois dígitos, letras minúscul
 
 A movimentação do arquivo deve acompanhar o estado real do conteúdo. Ao mudar o status, atualize o checklist, o README da série e esta visão geral.
 
+## Coleção documental IAM Platform
+
+A área IAM Platform possui navegação complementar por status editorial e por capítulo técnico:
+
+* [Apresentação e guia de navegação](iam-platform/README.md)
+* [Sumário em formato de livro](iam-platform/SUMMARY.md)
+* [Roadmap técnico e editorial](iam-platform/roadmap.md)
+* [Glossário](iam-platform/glossary.md)
+
 ## Acompanhamento geral
 
 | Série | Publicados | Em produção | Backlog | Total | Detalhes |
 |---|---:|---:|---:|---:|---|
-| IAM Platform | 18 | 0 | 13 | 31 | [Ver série](iam-platform/README.md) |
+| IAM Platform | 21 | 0 | 10 | 31 | [Ver série](iam-platform/README.md) |
 | Spring | 3 | 0 | 17 | 20 | [Ver série](spring/README.md) |
 | Testing | 9 | 0 | 11 | 20 | [Ver série](testing/README.md) |
 | Security | 1 | 0 | 27 | 28 | [Ver série](security/README.md) |
 | Microservices | 0 | 0 | 20 | 20 | [Ver série](microservices/README.md) |
-| **Total** | **30** | **0** | **89** | **119** | |
+| **Total** | **34** | **0** | **85** | **119** | |
 
 ## Como adicionar um novo post
 

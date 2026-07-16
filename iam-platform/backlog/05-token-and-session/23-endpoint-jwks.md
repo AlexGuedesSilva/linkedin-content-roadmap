@@ -1,4 +1,4 @@
-# IAM Platform — 22 — Endpoint JWKS
+# IAM Platform — 23 — Endpoint JWKS
 
 ## Status
 
@@ -14,7 +14,7 @@
 ## Informações
 
 * Série: IAM Platform
-* Número: 22
+* Número: 23
 * Tema: Endpoint JWKS
 * Data de criação:
 * Data de publicação:

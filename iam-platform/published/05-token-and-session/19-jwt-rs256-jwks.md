@@ -18,7 +18,7 @@
 * Tema: Emissão de Access Token com JWT (RS256) + JWKS
 * Data de criação: 14/07/2026
 * Data de publicação: 14/07/2026
-* Link da publicação:https://www.linkedin.com/feed/update/urn:li:activity:7482928529064497152/
+* Link da publicação: https://www.linkedin.com/feed/update/urn:li:activity:7482928529064497152/
   
 * Branch ou feature relacionada: 
   feature/token-jwt
@@ -76,6 +76,10 @@ Mostrar que JWT é muito mais do que um token de autenticação: ele envolve ass
 * Detalhes importantes
 
 * Tecnologias utilizadas
+
+## Rascunho da descrição
+
+Campo ainda não preenchido.
 
 ## Referências de estudo
 
