@@ -19,7 +19,7 @@ IoC, injeção de dependência, beans, ApplicationContext, Spring Boot, auto-con
 | 01 | Como o Spring encontra seus Beans? | Publicado | [Arquivo](published/01-como-o-spring-encontra-seus-beans.md) |
 | 02 | O que acontece quando você inicia uma aplicação Spring? | Publicado | [Arquivo](published/02-o-que-acontece-quando-voce-inicia-uma-aplicacao-spring.md) |
 | 03 | Como funciona o DispatcherServlet? | Publicado | [Arquivo](published/03-como-funciona-o-dispatcherservlet.md) |
-| 04 | Inversão de Controle e Injeção de Dependência | Backlog | [Arquivo](backlog/04-inversao-de-controle-e-injecao-de-dependencia.md) |
+| 04 | Inversão de Controle e Injeção de Dependência | Publicado | [Arquivo](published/04-inversao-de-controle-e-injecao-de-dependencia.md) |
 | 05 | BeanFactory vs ApplicationContext | Backlog | [Arquivo](backlog/05-beanfactory-vs-applicationcontext.md) |
 | 06 | Ciclo de vida de um Bean | Backlog | [Arquivo](backlog/06-ciclo-de-vida-de-um-bean.md) |
 | 07 | Component Scan | Backlog | [Arquivo](backlog/07-component-scan.md) |
